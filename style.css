@@ -1,0 +1,359 @@
+/* reset css */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Catamaran', sans-serif;
+  font-family: 'Source Sans 3', sans-serif;
+  font-family: 'Roboto Slab', serif;
+
+}
+
+:root{
+  --color-black:#242424;
+  --color-back:#302A38;
+  --color-letter:#fff;
+  --color-green:#22C55E;
+  --color-light: #454249;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a{
+  text-decoration: none;
+}
+
+.header-page {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  position: absolute;
+  background-color: var(--color-back);
+  box-shadow: 0px 0px 20px 0px #000;
+}
+
+.header-page h2{
+  font-size: 5vmin;
+}
+
+
+.bio{
+  color: var(--color-green);
+}
+
+
+ul, li{
+  list-style: none;
+}
+
+.header-page ul{
+  display: flex;
+  gap: 20px;
+}
+
+.header-page a{
+  color: var(--color-letter);
+  font-size: 2vmin;
+}
+
+.header-page a:hover{
+  color: var(--color-green);
+  transition: .5s;
+}
+
+.container{
+  width: 100%;
+  height: 100vh;
+}
+
+.prob{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.solu{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tec{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.bene{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+h1{
+  color: var(--color-letter);
+  font-size: 15vmin;
+}
+
+p{
+  color: var(--color-letter);
+}
+
+.texto{
+  width: 50vmax;
+  height: 5%;
+  text-align: center;
+}
+
+.botao{
+  width: 20vmin;
+  height: 4vmin;
+  border: 2px solid black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  background-color: black;
+  color: var(--color-letter);
+  text-decoration: none;
+  font-size: 1.5vmin;
+}
+
+.botao img{
+  color: #fff;
+}
+
+.botao:hover{
+  scale: 1.1;
+  transition: .5s;
+}
+
+.bg-image{
+  background-image: linear-gradient(rgba(0, 0, 10, 1.8), rgba(0, 0, 20, 0.3)),
+  url(./images/pexels-johann-piber-751096.jpg);
+  background-attachment: fixed;
+}
+
+.bg-color{
+  background-color: var(--color-back);
+}
+
+.centro{
+  width: 75%;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2vmin;
+
+}
+
+.content{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+
+.content h2{
+  font-size: 7vmin;
+  color: var(--color-letter);
+}
+
+.traco{
+  width: 20%;
+  height: 10px;
+  background-color: var(--color-green);
+}
+
+.content p{
+  font-size: 2vmin;
+}
+
+.centro img{
+  width: 50%;
+  height: 20vmax;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.tec h2{
+  font-size: 5vmin;
+  color: var(--color-letter);
+}
+
+.container-card{
+  width: 100%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.card{
+  width: 23%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 10px;
+  background-color: var(--color-light);
+  box-shadow: 30px white;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: 1px 1px 25px var(--color-black);
+}
+
+.card img{
+  width: 15vw;
+  height: 30vh;
+}
+
+.card p{
+  text-align:center;
+}
+
+.card h3{
+  font-size: 3vmin;
+  color: var(--color-green);
+}
+
+.bene h2{
+  color: var(--color-letter);
+  margin-top: 5vh;
+  font-size: 5vmin;
+  
+}
+
+.traco2{
+  width: 15%;
+  height: 0.5vh;
+  background-color: var(--color-green);
+}
+
+.beneficio{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 8vmin;
+  margin-top: 10vh;
+
+}
+
+.box-2{
+  width: 40vw;
+  height: 30vh;
+  background-color: var(--color-black);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 2%;
+  border-top: 3px solid var(--color-green);
+  border-radius: 10px;
+  box-shadow: 1px 1px 25px ;
+}
+
+.box-2 h3{
+  font-size: 5vmin;
+  color: var(--color-letter);
+}
+
+.times{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.times h2{
+  margin-top: 8vh;
+  color: var(--color-letter);
+  font-size: 5vmin;
+}
+
+.traco3{
+  width: 10%;
+  height: 1vh;
+  background-color: var(--color-green);
+}
+
+.time{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 80px;
+}
+
+.alunos{
+  width: 20vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border-top: 7px solid var(--color-green);
+  margin-top: 50px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: var(--color-black);
+}
+
+.alunos img{
+  width: 70%;
+  height: 30vh;
+  border-radius: 10px;
+}
+
+.alunos h3{
+  font-size: 3vmin;
+  color: var(--color-letter);
+}
+
+.rodape{
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--color-black);
+  padding: 0px 30px 0px 30px;
+  font-size: 2vmin;
+}
+
+.botoes ul{
+  display: flex;
+  gap: 20px;
+  color: var(--color-letter);
+}
+
+.botoes a{
+  color: var(--color-letter);
+  transition: .5s;
+}
+
+.botoes a:hover{
+  color: var(--color-green);
+}
