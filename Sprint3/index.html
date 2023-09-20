@@ -24,8 +24,7 @@
 <body>
     <!-- HEADER -->
     <header class="container-fluid bg-marrom">
-
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg">
             <div class="container-fluid bg-marrom">
 
                 <a class="navbar-brand text-white fs-1" href="#">
@@ -33,18 +32,27 @@
                 </a>
 
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
+                    <ul class="navbar-nav ms-auto gap-2">
                         <li class="nav-item">
-                            <a class="nav-link text-white fs-4" aria-current="page" href="#">Home</a>
+                            <a class="nav-link text-white fs-4" href="#robo">O Robô</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white fs-4" href="#">Features</a>
+                            <a class="nav-link text-white fs-4" href="#arma">Arma</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white fs-4" href="#">Pricing</a>
+                            <a class="nav-link text-white fs-4" href="#hardware">Hardware</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white fs-4" href="#">Disabled</a>
+                            <a class="nav-link text-white fs-4" href="#galeria">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fs-4" href="#quemsomos">Quem Somos?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fs-4" href="#robocup">Robocup</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fs-4" href="#contato">Contato</a>
                         </li>
                     </ul>
                 </div>
@@ -52,8 +60,115 @@
         </nav>
     </header>
 
-    <main class="container">
-        <div class="container-fluid bg-caramelo"></div>
+    <main class="container-fluid p-0">
+        <section class="bg-caramelo row align-items-center m-0 p-4" id="robo">
+            <div class="col-md-6 d-flex justify-content-center">
+                <img class="img-fluid" src="./images/1695076808483.png" alt="Logo do robô caramelo">
+            </div>
+            <div class="col-md-6 text-center">
+                <p class="fs-5 text-orange">O robô Caramelo foi produzido para o projeto do 1º ano de Sistemas de
+                    Informação da FIAP (Robocup). É um robô que tem como objetivo estourar o balão de outros robôs, e
+                    foi pensado para ser inspirado em um cachorro caramelo - grande símbolo brasileiro.
+                </p>
+            </div>
+        </section>
+
+        <section class="bg-marrom row align-items-center m-0 p-4" id="arma">
+            <h1 class="text-orange align-self-start">Sistema de Armas</h1>
+            <div class="col-md-6 text-center d-flex justify-content-center m-0">
+                <p class="fs-5 text-orange">A arma é uma estaca de mdf com uma bola de borracha (brinquedo de cachorro)
+                    na ponta, cheia de alfinetes que funciona como uma “catapulta” lateral, quando o sensor for
+                    acionado, uma das arma ganha impulso para frente e a outra para trás, visando atacar o oponente de
+                    qualquer lado, e depois de alguns segundos volta. </p>
+            </div>
+            <div class="col-md-6 d-flex justify-content-center p-0 m-0">
+                <img class="img-fluid bg-caramelo rounded-circle py-5 px-2" src="./images/base-atualizada-robô-cima.svg"
+                    alt="Esboço da parte de cima do robô">
+            </div>
+        </section>
+
+        <section class="bg-caramelo row align-items-center m-0 p-4" id="hardware">
+            <h1 class="text-orange align-self-start my-4">Hardware Utilizado</h1>
+
+            <div class="col-md-4 col-lg-3 my-2">
+                <div class="card">
+                    <img src="./images/arduino-mega-2560.jpg" class="card-img-top mt-3 p-2" alt="Arduino mega">
+                    <div class="card-body">
+                      <p class="card-text text-orange">Arduino Mega</p>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-md-4 col-lg-3 my-2">
+                <div class="card">
+                    <img src="./images/ponteh.jpg" class="card-img-top p-2" alt="Ponte H">
+                    <div class="card-body">
+                      <p class="card-text text-orange">Ponte H</p>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-md-4 col-lg-3 my-2">
+                <div class="card">
+                    <img src="./images/modulobluetooth.jpg" class="card-img-top p-2" alt="Módulo Bluetooth H-5">
+                    <div class="card-body">
+                      <p class="card-text text-orange">Módulo Bluetooth H-5</p>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-md-4 col-lg-3 my-2">
+                <div class="card">
+                    <img src="./images/motordc.jpg" class="card-img-top p-2" alt="Motores DC e rodas de borracha">
+                    <div class="card-body">
+                      <p class="card-text text-orange">Motores DC e rodas de borracha</p>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-md-4 col-lg-3 my-2">
+                <div class="card">
+                    <img src="./images/servo.jpg" class="card-img-top p-2" alt="Servo motor">
+                    <div class="card-body">
+                      <p class="card-text text-orange">Servo Motor</p>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-md-4 col-lg-3 my-2">
+                <div class="card">
+                    <img src="./images/chave.jpg" class="card-img-top p-2" alt="Chave de fim de curso">
+                    <div class="card-body">
+                      <p class="card-text text-orange">Chave de fim de curso</p>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-md-4 col-lg-3 my-2">
+                <div class="card">
+                    <img src="./images/led.jpg" class="card-img-top p-2" alt="Fita de LED">
+                    <div class="card-body">
+                      <p class="card-text text-orange">Fita de LED</p>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-md-4 col-lg-3 my-2">
+                <div class="card">
+                    <img src="./images/isd1820.jpg" class="card-img-top p-2" alt="Módulo ISD1820">
+                    <div class="card-body">
+                      <p class="card-text text-orange">Módulo reprodutor de som ISD1820</p>
+                    </div>
+                  </div>
+            </div>
+
+        </section>
+
+        <section class="bg-marrom m-0 p-4" id="galeria">
+
+            <h1 class="text-orange align-self-start my-4">Galeria de Imagens</h1>
+
+        </section>
 
     </main>
 

@@ -7,7 +7,11 @@
 }
 
 body{
-    font-family: var(--text-family)
+    font-family: var(--font-body) !important;
+}
+
+section{
+    min-height: 100vh;
 }
 
 .bg-marrom{
@@ -24,4 +28,13 @@ body{
 
 .text-white{
     color:var(--color-white);
+}
+
+.card{
+    height: 20rem !important;
+}
+
+.card-img-top{
+    height: 70%;
+    width: 80%;
 }
