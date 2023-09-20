@@ -1,0 +1,27 @@
+:root{
+    --color-brown: #4d3227;
+    --color-orange: #cd7700;
+    --color-caramelo: #ebc999;
+    --color-white: #fff;
+    --font-body:'Zilla Slab', serif;
+}
+
+body{
+    font-family: var(--text-family)
+}
+
+.bg-marrom{
+    background-color: var(--color-brown);
+}
+
+.text-orange{
+    color: var(--color-orange);
+}
+
+.bg-caramelo{
+    background-color: var(--color-caramelo);
+}
+
+.text-white{
+    color:var(--color-white);
+}
