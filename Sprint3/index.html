@@ -34,25 +34,23 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav ms-auto gap-2">
                         <li class="nav-item">
-                            <a class="nav-link text-white fs-4" href="#robo">O Robô</a>
+                            <a class="nav-link text-white fs-5" href="#robo">O Robô</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link text-white fs-5" href="#quemsomos">Quem Somos?</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white fs-4" href="#arma">Arma</a>
+                            <a class="nav-link text-white fs-5" href="#robocup">Robocup</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white fs-4" href="#hardware">Hardware</a>
+                            <a class="nav-link text-white fs-5" href="#socio">Mapa da aventura</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white fs-4" href="#galeria">Galeria</a>
+                            <a class="nav-link text-white fs-5" href="#contato">Contato</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white fs-4" href="#quemsomos">Quem Somos?</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white fs-4" href="#robocup">Robocup</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white fs-4" href="#contato">Contato</a>
+                            <a class="nav-link text-white fs-5" href="#socio">Seja nosso sócio</a>
                         </li>
                     </ul>
                 </div>
@@ -68,14 +66,14 @@
             <div class="col-md-6 text-center">
                 <p class="fs-5 text-orange">O robô Caramelo foi produzido para o projeto do 1º ano de Sistemas de
                     Informação da FIAP (Robocup). É um robô que tem como objetivo estourar o balão de outros robôs, e
-                    foi pensado para ser inspirado em um cachorro caramelo - grande símbolo brasileiro.
+                    foi pensado para ser inspirado em um cachorro caramelo.
                 </p>
             </div>
         </section>
 
         <section class="bg-marrom row align-items-center m-0 p-4" id="arma">
             <h1 class="text-orange align-self-start">Sistema de Armas</h1>
-            <div class="col-md-6 text-center d-flex justify-content-center m-0">
+            <div class="col-md-6 text-center d-flex justify-content-center mt-2">
                 <p class="fs-5 text-orange">A arma é uma estaca de mdf com uma bola de borracha (brinquedo de cachorro)
                     na ponta, cheia de alfinetes que funciona como uma “catapulta” lateral, quando o sensor for
                     acionado, uma das arma ganha impulso para frente e a outra para trás, visando atacar o oponente de
@@ -88,88 +86,200 @@
         </section>
 
         <section class="bg-caramelo row align-items-center m-0 p-4" id="hardware">
-            <h1 class="text-orange align-self-start my-4">Hardware Utilizado</h1>
+            <h1 class="text-orange align-self-start mb-2">Hardware Utilizado</h1>
 
-            <div class="col-md-4 col-lg-3 my-2">
-                <div class="card">
-                    <img src="./images/arduino-mega-2560.jpg" class="card-img-top mt-3 p-2" alt="Arduino mega">
-                    <div class="card-body">
-                      <p class="card-text text-orange">Arduino Mega</p>
+            <div class="row g-4">
+                <div class="col-md-4 col-lg-3">
+                    <div class="card h-100 align-items-center pt-4 shadow">
+                        <img src="./images/arduino-mega-2560.png" class="card-img-top img-fluid align-self-center"
+                            alt="Arduino mega">
+                        <div class="card-body align-text-bottom">
+                            <h5 class="card-title text-orange ">Arduino Mega</h5>
+                        </div>
                     </div>
-                  </div>
+                </div>
+
+                <div class="col-md-4 col-lg-3">
+                    <div class="card h-100 align-items-center shadow">
+                        <img src="./images/chave.png" class="card-img-top img-fluid" alt="Chave de fim de curso">
+                        <div class="card-body">
+                            <h5 class="card-title text-orange">Chave de fim de curso</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-lg-3">
+                    <div class="card h-100 align-items-center shadow">
+                        <img src="./images/isd1820.png" class="card-img-top img-fluid" alt="Módulo ISD1820">
+                        <div class="card-body">
+                            <h5 class="card-title text-orange">Módulo ISD1820</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-lg-3">
+                    <div class="card h-100 align-items-center shadow">
+                        <img src="./images/led.png" class="card-img-top img-fluid" alt="Fita de LED">
+                        <div class="card-body">
+                            <h5 class="card-title text-orange">Fita de LED</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-lg-3">
+                    <div class="card h-100 align-items-center shadow pt-4">
+                        <img src="./images/modulobluetooth.png" class="card-img-top img-fluid"
+                            alt="Módulo Bluetooth Hc-05">
+                        <div class="card-body">
+                            <h5 class="card-title text-orange">Módulo Bluetooth Hc-05</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-lg-3">
+                    <div class="card h-100 align-items-center shadow">
+                        <img src="./images/motordc.png" class="card-img-top img-fluid" alt="Motor DC">
+                        <div class="card-body">
+                            <h5 class="card-title text-orange">Motor DC</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-lg-3">
+                    <div class="card h-100 align-items-center shadow">
+                        <img src="./images/ponteh.png" class="card-img-top img-fluid" alt="Ponte H">
+                        <div class="card-body">
+                            <h5 class="card-title text-orange">Ponte H</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-lg-3">
+                    <div class="card h-100 align-items-center shadow pt-4">
+                        <img src="./images/servo.png" class="card-img-top img-fluid" alt="Servo Tower Pro">
+                        <div class="card-body">
+                            <h5 class="card-title text-orange">Servo Tower Pro</h5>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <div class="col-md-4 col-lg-3 my-2">
-                <div class="card">
-                    <img src="./images/ponteh.jpg" class="card-img-top p-2" alt="Ponte H">
-                    <div class="card-body">
-                      <p class="card-text text-orange">Ponte H</p>
-                    </div>
-                  </div>
-            </div>
-
-            <div class="col-md-4 col-lg-3 my-2">
-                <div class="card">
-                    <img src="./images/modulobluetooth.jpg" class="card-img-top p-2" alt="Módulo Bluetooth H-5">
-                    <div class="card-body">
-                      <p class="card-text text-orange">Módulo Bluetooth H-5</p>
-                    </div>
-                  </div>
-            </div>
-
-            <div class="col-md-4 col-lg-3 my-2">
-                <div class="card">
-                    <img src="./images/motordc.jpg" class="card-img-top p-2" alt="Motores DC e rodas de borracha">
-                    <div class="card-body">
-                      <p class="card-text text-orange">Motores DC e rodas de borracha</p>
-                    </div>
-                  </div>
-            </div>
-
-            <div class="col-md-4 col-lg-3 my-2">
-                <div class="card">
-                    <img src="./images/servo.jpg" class="card-img-top p-2" alt="Servo motor">
-                    <div class="card-body">
-                      <p class="card-text text-orange">Servo Motor</p>
-                    </div>
-                  </div>
-            </div>
-
-            <div class="col-md-4 col-lg-3 my-2">
-                <div class="card">
-                    <img src="./images/chave.jpg" class="card-img-top p-2" alt="Chave de fim de curso">
-                    <div class="card-body">
-                      <p class="card-text text-orange">Chave de fim de curso</p>
-                    </div>
-                  </div>
-            </div>
-
-            <div class="col-md-4 col-lg-3 my-2">
-                <div class="card">
-                    <img src="./images/led.jpg" class="card-img-top p-2" alt="Fita de LED">
-                    <div class="card-body">
-                      <p class="card-text text-orange">Fita de LED</p>
-                    </div>
-                  </div>
-            </div>
-
-            <div class="col-md-4 col-lg-3 my-2">
-                <div class="card">
-                    <img src="./images/isd1820.jpg" class="card-img-top p-2" alt="Módulo ISD1820">
-                    <div class="card-body">
-                      <p class="card-text text-orange">Módulo reprodutor de som ISD1820</p>
-                    </div>
-                  </div>
-            </div>
 
         </section>
 
-        <section class="bg-marrom m-0 p-4" id="galeria">
+        <section class="bg-marrom m-0 p-4">
 
             <h1 class="text-orange align-self-start my-4">Galeria de Imagens</h1>
 
+            <div class="container mb-3">
+                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./images/visao-frontal.jpeg" class="d-block w-100 h-50"
+                                alt="Visão frontal do Caramelo">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Visão frontal do Caramelo</h5>
+                                  </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/visao-interior.jpeg" class="d-block w-100"
+                                alt="Visão interior do Caramelo">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Visão interior do Caramelo</h5>
+                                  </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/logo-gravado.jpeg" class="d-block w-100"
+                                alt="Logo do caramelo gravado a laser na base">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Logo do Caramelo gravado a laser na base</h5>
+                                  </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/customizacao-e-arma.jpeg" class="d-block w-100"
+                                alt="Customizacao e armas do Caramelo">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Customização e armas do Caramelo</h5>
+                                  </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
         </section>
 
+        <section class="bg-caramelo row align-items-center m-0 p-4" id="robocup">
+            <h1 class="text-orange align-self-start my-4">Robocup</h1>
+            <div class="col-md-6 p-3">
+                <img src="./images/materiarobocup.jpg" alt="Imagem da Robocup de 2017" class="h-50 img-fluid rounded">
+            </div>
+            <div class="col-md-6 text-center">
+                <p class="text-orange fs-5">A Robocup é a competição mais antiga da FIAP e consiste em uma luta de
+                    robôs, onde o principal
+                    objetivo é estourar o balão do robô adversário. Para isso, os alunos do 1º ano de Sistemas de
+                    Informação devem construir seus robôs com armas e customizações criativas.</p>
+            </div>
+        </section>
+
+        <section class="bg-marrom row align-items-center m-0 p-4 flex-md-row-reverse">
+            <h1 class="text-orange align-self-start my-4">Next</h1>
+            <div class="col-md-6 p-3">
+                <img src="./images/Fiap_Next_2019-1624.jpg" alt="Next de 2019" class="h-50 img-fluid rounded">
+            </div>
+            <div class="col-md-6 text-center">
+                <p class="text-orange fs-5">O Next é o festival de inovação e tecnologia da FIAP. Todos os anos o Next
+                    conta com as competições Robocup, Autonomous Car Cup, Logistic Cup, Cyber Cup, além do Startup One,
+                    os projetos de Iniciação Científica e diversas challenges rolando simultaneamente.</p>
+            </div>
+        </section>
+
+        <section class="bg-caramelo row align-items-center m-0 p-4" id="contato">
+            <h1 class="text-orange align-self-start my-4">Contato</h1>
+            <p class="my-2 fs-4">Teve alguma dúvida, reclamação ou sugestão? Envia pra gente!</p>
+            <div class="col-md-6">
+                <img src="./images/robotics-animate.svg" alt="Robô com engrenagens e braços mecânicos em sua volta" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+
+                <form name="contato" method="get">
+                    <div class="row">
+                        <div class="col-md-6 my-2">
+                            <label for="nome" class="form-label text-orange">Nome: </label>
+                            <input type="text" name="nome" id="nome" class="form-control" placeholder="Ex. Caramelo"
+                                minlength="10" maxlength="70" required>
+                        </div>
+
+                        <div class="col-md-6 my-2">
+                            <label for="email" class="form-label text-orange">Email: </label>
+                            <input type="email" name="email" id="email" class="form-control"
+                                placeholder="Ex. caramelo@email.com" required>
+                        </div>
+
+
+                        <div class="my-2">
+                                <label for="mensagem" class="form-label text-orange">Mensagem: </label>
+                                <textarea name="mensagem" id="mensagem" class="form-control"
+                                    placeholder="Ex. Sua mensagem"></textarea>
+                        </div>
+                        <div>
+                            <button type="submit" class="btn btn-outline-orange">Enviar</button>
+                        </div>
+
+
+                    </div>
+                </form>
+            </div>
+        </section>
     </main>
 
     <!-- JS do BS -->
