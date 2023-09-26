@@ -40,3 +40,8 @@ body{
     background-color: transparent !important;
     color: var(--color-brown) !important;
 }
+
+.img-group{
+    width: 3vw;
+    height: 50vh;
+}
