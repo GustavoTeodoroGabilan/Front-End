@@ -1,0 +1,44 @@
+Instalar o plugin
+
+adicionar plugin
+
+enviar plugin
+
+substituir
+
+All-in-One
+
+backup
+
+criar backup
+
+instalar
+
+All-in-One
+
+------------------------------------
+xampp (ligado)
+
+localhost/phpmyadmin
+
+novo (nome / utf8_gereral_ci)
+
+criar
+
+wordpress baixado (pasta download descompactada)
+
+entra na pasta
+
+nome
+
+mandar para C:\xampp\htdocs
+
+No navegador:
+
+localhost/nomeDaPasta
+
+instalar
+
+preencher as lacunas
+
+obs: Usuario padrao root
